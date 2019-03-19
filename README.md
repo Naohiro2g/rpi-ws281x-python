@@ -1,10 +1,16 @@
+https://dordnung.de/raspberrypi-ledstrip/ws2812
+http://www.neko.ne.jp/~freewing/raspberry_pi/raspberry_pi_gpio_pwm_ws2812b_rgb_led/
+
+
+
+
 ## Wiring
 
 
 WS2812  |  RPi
 |-------|-------|
 GND     |  GND
-DIN     |  GPIO18
+DIN     |  GPIO18 or 12
 VDC     |  3.3V
 GND     |  GND
 
