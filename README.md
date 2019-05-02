@@ -7,12 +7,12 @@ http://www.neko.ne.jp/~freewing/raspberry_pi/raspberry_pi_gpio_pwm_ws2812b_rgb_l
 ## Wiring
 
 
-WS2812  |  RPi
-|-------|-------|
-GND     |  GND
-DIN     |  GPIO18 or 12
-VDC     |  3.3V or 5V
-GND     |  GND
+WS2812  |  RPi           |  Ext Power 
+|-------|----------------|--------------|
+GND     |  GND           |
+DIN     |  GPIO18 or 12  |
+VDC     |  (3.3V or 5V)  | 3.3V or 5V
+GND     |                | GND
 
 The module says "4-7VDC" but it works at both 3.3V or 5V of RasPi.
 
