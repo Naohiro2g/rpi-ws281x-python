@@ -36,5 +36,5 @@ This is the official Python distribution of the ws281x library: http://github.co
 Most users should simply run:
 
 ```
-sudo pip install rpi_ws281x
+sudo pip3 install rpi_ws281x
 ```
