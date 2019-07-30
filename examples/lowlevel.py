@@ -26,13 +26,13 @@ LED_INVERT     = 0          # Set to 1 to invert the LED signal, good if using N
 # 32-bit value where the lower 24 bits define the red, green, blue data (each
 # being 8 bits long).
 DOT_COLORS = [  0x200000,   # red
-				0x201000,   # orange
-				0x202000,   # yellow
-				0x002000,   # green
-				0x002020,   # lightblue
-				0x000020,   # blue
-				0x100010,   # purple
-				0x200010 ]  # pink
+		0x201000,   # orange
+		0x202000,   # yellow
+		0x002000,   # green
+		0x002020,   # lightblue
+		0x000020,   # blue
+		0x200020,   # purple
+		0x200010 ]  # pink
 
 
 # Create a ws2811_t structure from the LED configuration.
@@ -84,7 +84,7 @@ try:
 			raise RuntimeError('ws2811_render failed with code {0} ({1})'.format(resp, message))
 
 		# Delay for a small period of time.
-		time.sleep(0.25)
+		time.sleep(0.5)
 
 		# Increase offset to animate colors moving.  Will eventually overflow, which
 		# is fine.
