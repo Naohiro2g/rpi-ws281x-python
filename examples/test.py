@@ -34,6 +34,17 @@ if not args.clear:
     print('(hint: Use "-c" command line argument to clear LEDs on exit)')
 
 
+print(strip.numPixels(), "pixels")
+strip.setPixelColor(0, Color(64, 0, 0))
+strip.setPixelColor(1, Color(0, 64, 0))
+strip.setPixelColor(2, Color(0, 0, 255))
+strip.setPixelColor(3, Color(64, 64, 255))
+strip.setPixelColor(4, Color(255, 255, 255))
+strip.show()
+
+input("press enter to continue")
+
+
 try:
     print('colorWipe')
     colorWipe(strip, Color(255, 0, 0), 100)  # Red wipe
